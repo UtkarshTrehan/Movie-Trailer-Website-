@@ -15,9 +15,12 @@ def get_movie_list():
     info = json.loads(str(output))
 
     for movie in info['results']:
-        movie_dict = {movie['title']: {'poster_path': movie['poster_path'],
+
+        movie_dict = {movie['title']: {'poster_path': "https://image.tmdb.org/t/p/w500/{}".format(movie['poster_path']),
                                        'overview': movie['overview'],
                                        'title': movie['title']}}
         movies_dict.update(movie_dict)
     connection.close()
     return movies_dict
+
+# def youtube_link(key):
