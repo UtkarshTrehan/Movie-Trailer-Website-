@@ -9,6 +9,6 @@ for movie in movies_list:
     data = movies_list[movie]
     list_of_movies.append(media.Movie(data['title'],data['overview'],
                                       data['poster_path'],
-                                      "https: // www.youtube.com / watch?v = gkV_SowjNFk"))
+                                      data['trailer']))
 fresh_tomatoes.open_movies_page(list_of_movies)
 
