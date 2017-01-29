@@ -12,7 +12,7 @@ Installation
   *fresh_tomatoes*,
   *media*,
   *popular*
-  to be in *same folder* and then executing **entertainment_center.py** will open the
+  to be in *same folder* and then executing **entertainment_center.py** will open the Web Page
 --------------------------------------  
 Contacts
      If you have a bug  please email me for bug reporting
